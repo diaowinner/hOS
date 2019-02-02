@@ -1,59 +1,58 @@
 
-HOS ºº×ÖÏµÍ³(Ğ¡ĞÍÕä²Ø°æ)
+HOS Hanzi system(diaowinner forked)
 ------------------------
-                                                     ¼ò¾§ ÓÚ 96,12
+                                                     ç®€æ™¶,diaowinner as 96,12
 
 
-Ò»¡¢ °²×°
+Setup it
 ---------
-    HOS ¿ÉÒÔ°²×°µ½ÈÎºÎÇı¶¯Æ÷µÄÈÎºÎÄ¿Â¼»ò×ÓÄ¿Â¼ÖĞ£¬ÏµÍ³Ä¿Â¼Ãû³Æ¿ÉÒÔËæ±ã
-×Ô¼ºÈ¡¡£×îºóÖ»ÒªÔÚ AUTOEXEC.BAT ÖĞ¼ÓÈë¸ÃÄ¿Â¼Â·¾¶£¬½ñºó¼´¿ÉËæÒâÆô¶¯/ÍË³ö
-ºº×ÖÏµÍ³¡£
+    HOS can install for any dir, System can rename
+    Last, Edit AUTOEXEC.BAT of this path, So you can starting this!
+æ±‰å­—ç³»ç»Ÿã€‚
 
-¶ş¡¢»ù´¡Ê¹ÓÃ
+Use
 ------------
-    1. Æô¶¯ºº×ÖÏµÍ³             HOS¡û©¼
-    2. ÍË³öºº×ÖÏµÍ³             Q¡û©¼ »ò  CTRL+F5
-    3. ÏµÍ³ÉèÖÃ                 CTRL+F10
-    4. ÌáÊ¾ĞĞÇĞ»»               ÓÒSHIFT(Ä¬ÈÏ)
-    5. Ä¬ÈÏ¸÷ÖÖ³£ÓÃºº×ÖÊäÈë
-       ALT+F1           Ë«Æ´Ë«Òô
-       ALT+F2           È«Æ´
-       ALT+F3           ×ÔÈ»Ë«Æ´
-       ALT+F4           Îå±Ê
-       ALT+F5           Îå±Ê»®
-       CTRL+ALT+F1      ÇøÎ»
+    1. Start             HOSâ†â”˜
+    2. Quit             Qâ†â”˜ æˆ–  CTRL+F5
+    3. Set                 CTRL+F10
+    4. Change Tips               å³SHIFT(é»˜è®¤)
+    5. Hanzi Input:
+       ALT+F1           Pinyin(Shuang Pin)
+       ALT+F2           Pinyin
+       ALT+F3           Pinyin(Zi Ran)
+       ALT+F4           Wang Yongmin's Wu Bi
+       ALT+F5           Heng Shu Pie Na Zhe
+       CTRL+ALT+F1      GB/T 2312-1980
        CTRL+ALT+F10     ASCII
-       CTRL+ALT+L       ÁªÏë¿ª¹Ø(ÓÃALT+F1ÊäÈë·¨µÄ´Ê¿â½øĞĞÁªÏë)
-       CTRL+ALT+G       ÆÁÄ»È¡´Ê(ÊÊÓÃÈÎºÎÊäÈë·¨)
-       CTRL+ALT+J       ×Ô¶¯¼Ç´Ê¿ª¹Ø(×îºó¶àÇÃÒ»¸ö¿Õ¸ñÈ·ÈÏ,È¡Ïû¿É°´»Ø³µ¼ü)
-       CTRL+¿Õ¸ñ        ÖĞ/Î÷ÎÄÊäÈëÇĞ»»
-       SHIFT+¿Õ¸ñ       È«/°ë½ÇÊäÈëÇĞ»»(»ò CTRL+F9)
-       CTRL+ALT+¿Õ¸ñ    ÖØ¸´×îºóÒ»´ÎÊäÈëµÄ×Ö´Ê
-    6. ËùÓĞ³ÌĞò¾ù¿É¼ÓÉÏ²ÎÊı "/?" ÁĞ³öÊ¹ÓÃËµÃ÷£¬Çë²Î¿¼¡£
-    7. HOS ½öÌá¹©Ò»Ì×16µãÕóºÍÒ»Ì×24µãÕóµÄËÎÌå¼òÌå×Ö¿â£¬Í¬Ê±¹©ÏÔÊ¾¼°´òÓ¡ÓÃ¡£
-       Ö»Òª°²×° SuperVGA ÏÔÊ¾¿¨£¬¾Í¿ÉÖ´ĞĞ 24.COM ÏÔÊ¾¸ßÇåÎú¶ÈµÄÎÄ×ÖÆÁÄ»¡£
+       CTRL+ALT+L       Think(ALT+F1's word)
+       CTRL+ALT+G       Grab words(any IME)
+       CTRL+ALT+J       Auto Learn Word(Space is ok,Enter is cancel)
+       CTRL+SPC         Cn/En IME
+       SHIFT+SPC        A or ï¼¡
+       CTRL+ALT+SPC     Input last word
+    6. Any program has "/?" help.
+    7. HOS Only has a 16px 24px Song with display and print
+       Setup SuperVGA card, you can run 24.COM For 24px display.
 
-Èı¡¢ÎÄ¼şÁĞ±í
+Files
 ------------
-»ù±¾ÏµÍ³:
-        HOS.BAT         ºº×ÖÏµÍ³Æô¶¯Åú´¦Àí
-        Q.COM           ºº×ÖÏµÍ³ÍË³ö³ÌĞò
-        DDRV.EXE        °²×°ÏÔÊ¾Çı¶¯(ÃüÁîĞĞÖ¸¶¨Çı¶¯³ÌĞòÃû³Æ, * ±íÊ¾×Ô¶¯)
-        TESTADP.EXE     ÏÔÊ¾¿¨¼´²å¼´ÓÃ³ÌĞò(×Ô¶¯¼ì²â¹úÄÚÁ÷ĞĞ30ÓàÖÖÏÔÊ¾¿¨)
-        KRNL.EXE        ÏµÍ³ºËĞÄÄ£¿é
-        GMODE.EXE       BIOS/VESA Ä£Ê½ÉèÖÃ³ÌĞò
-        16.COM          ÇĞ»»ÆÁÄ»Îª16µãÕó×ÖÌå
-        24.COM          ÇĞ»»ÆÁÄ»Îª24µãÕó×ÖÌå
-ºº×ÖÊäÈë:
-        INT16.EXE       ¼üÅÌ¹ÜÀíÄ£¿é(¿ÉÖ±½ÓÖ§³ÖWPSµÄÈÎÒâÊäÈë·¨)
-        IMD.EXE         ÍòÄÜÊäÈë·¨(¿É¹ÜÀí10ÕÅÂë±í,ÃüÁîĞĞÖ¸¶¨±àÂëÎÄ¼şÃû³Æ)
-        ASE.EXE         ÖĞÎÄÈ«ÆÁÄ»±à¼­Æ÷
+System:
+        HOS.BAT         Start
+        Q.COM           Quit
+        DDRV.EXE        Driver install(input your card, * is auto)
+        TESTADP.EXE     Plug & play install(30+ card)
+        KRNL.EXE        Kernel
+        GMODE.EXE       BIOS/VESA mode set
+        16.COM          16 px font change
+        24.COM          24 px font change
+IME:
+        INT16.EXE       Key manager(Support WPS' any IME)
+        IMD.EXE         IMD(Manager 10,input mabiao)
+        ASE.EXE         Edit.com like
 
-ËÄ¡¢Ä¿Â¼½á¹¹
+dirs.
 ------------
-    ÔÚºº×ÖÏµÍ³°²×°½áÊøºó£¬ÏµÍ³Ä¿Â¼ÏÂÃæ½«ÓĞ£²¸ö¹Ì¶¨Ä¿Â¼:
+    There is 2 dirs. on system
 
-    <DRV>       ´æ·Å¸÷ÖÖÇı¶¯³ÌĞò
-    <DAT>       ´æ·ÅÏÔÊ¾/´òÓ¡×Ö¿â¼°ÆäËûÏµÍ³Êı¾İÎÄ¼ş
-
+    <DRV>       Drivers
+    <DAT>       Data
